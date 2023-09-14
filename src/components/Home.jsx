@@ -11,7 +11,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* ---------------image background------------------ */}
         <div
           className="hero-bg parallax"
-          style={{maxWidth: "100%", backgroundImage: 'url("images/intro-bg.jpg")' }}
+          style={{height: "100%", backgroundImage: 'url("images/intro-bg.jpg")' }}
         ></div>
 
         {/* -------------------video background---------------------- */}
@@ -46,7 +46,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Amsterdam.
+                  based in Zaandam.
                 </p>
                 <a
                   href="#contact"
