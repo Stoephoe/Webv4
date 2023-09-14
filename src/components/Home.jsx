@@ -11,7 +11,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* ---------------image background------------------ */}
         <div
           className="hero-bg parallax"
-          style={{height: "100%", backgroundImage: 'url("images/intro-bg.jpg")' }}
+          style={{maxWidth: "100%", backgroundImage: 'url("images/intro-bg.jpg")' }}
         ></div>
 
         {/* -------------------video background---------------------- */}
