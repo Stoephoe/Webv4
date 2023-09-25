@@ -4,6 +4,7 @@ import ProjectDetailsModal from "./ProjectDetailsModal";
 
 
 
+
 const Portfolio = ({ classicHeader, darkTheme }) => {
   // init one ref to store the future isotope object
   const isotope = useRef();
@@ -24,7 +25,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Solarboat",
       projectInfo:"portfolio/project1.html",
-      files:"portfolio/project1.html",
+      files:"portfolio/files/NoFile.txt",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion",
       industry: "Design, Engineering and Production",
