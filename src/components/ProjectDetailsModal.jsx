@@ -178,18 +178,33 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         >
                           {projectDetails?.url?.name}
                         </a>
-                      </li>
-                    </ul>
-                    <div className="row no-gutters align-items-center">
-                      <div
-                        className={
-                          "col-auto text-dark font-weight-600" +
-                          (darkTheme ? " text-white" : "")
-                        }
-                      >
-                      </div>
-                    </div>
+                        </li>
+                        
+                      </ul>
                   </div>
+                      <div className="row g-4">
+                        <div className="col-xl-15">
+                            <a
+                            
+                            href={projectDetails?.files}
+                            download
+                            
+                            className="btn btn-primary rounded-pill"
+                            
+                          >
+                            Download Files
+                          </a>
+                                    <div className="row no-gutters align-items-center">
+                                  <div
+                                    className={
+                                      "col-auto text-dark font-weight-600" +
+                                      (darkTheme ? " text-white" : "")
+                                    }
+                                  >
+                                  </div>
+                          </div>
+                        </div>
+                    </div>                     
                 </div>
               </div>
             </div>
