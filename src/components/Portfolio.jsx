@@ -25,7 +25,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Solarboat",
       projectInfo:"portfolio/project1.html",
-      files:"portfolio/files/NoFile.txt",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion",
       industry: "Design, Engineering and Production",
@@ -54,6 +54,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Mini transat boat",
       projectInfo:"portfolio/project2.html",
+      files:"portfolio/files/default.html",
       client: "Yachts and Small Craft Rotterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Ansys, Rhino, AutoCad, Maxsurf",
       industry: "Design, Engineering and Production",
@@ -77,6 +78,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "3D printer project",
       projectInfo:"portfolio/project3.html",
+      files:"portfolio/files/default.html",
       client: "None",
       technologies: "Inventor, Fusion, AutoCad, Duet 3D, Prusa Slicer",
       industry: "Design, Engineering and Production",
@@ -102,6 +104,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Verkeerd Verbonden",
       projectInfo:"portfolio/project4.html",
+      files:"portfolio/files/default.html",
       client: "Lieve de Boer",
       technologies: "Chamsys, SketchUp and Capture",
       industry: "Decor design, Lighting design and Lighting control",
@@ -130,6 +133,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Grease",
       projectInfo:"portfolio/project5.html",
+      files:"portfolio/files/default.html",
       client: "Musical Zaanlands",
       technologies: "SketchUp",
       industry: "Decor design and manufacturing",
@@ -159,6 +163,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "ZL lightplan v1",
       projectInfo:"portfolio/project6.html",
+      files:"portfolio/files/default.html",
       client: "Zaanlands Lyceum Vereniging",
       technologies: "Capture and Chamsys",
       industry: "Lighting design and controll",
@@ -180,6 +185,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "ZL lightplan v2",
       projectInfo:"portfolio/project7.html",
+      files:"portfolio/files/default.html",
       client: "Zaanlands Lyceum Vereniging",
       technologies: "Capture and Chamsys",
       industry: "Lighting design and controll",
@@ -195,6 +201,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Propeller blades",
       projectInfo:"portfolio/project8.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -218,6 +225,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Hydrofoils",
       projectInfo:"portfolio/project9.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -249,6 +257,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Rudder",
       projectInfo:"portfolio/project10.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -275,6 +284,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Monaco Energy Boat Challange 2022",
       projectInfo:"portfolio/project11.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -297,6 +307,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Racing Aelous 2022",
       projectInfo:"portfolio/project12.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -321,6 +332,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Shell Eco Marathon 2023",
       projectInfo:"portfolio/project13.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -345,6 +357,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Racing Aeolus 2023",
       projectInfo:"portfolio/project14.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -374,6 +387,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Return of the Spirit",
       projectInfo:"portfolio/project15.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -402,6 +416,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Monaco Energy Boat Challange 2023",
       projectInfo:"portfolio/project16.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -430,6 +445,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Forbo Internship",
       projectInfo:"portfolio/project17.html",
+      files:"portfolio/files/default.html",
       client: "Forbo Flooring Systems Assendelft",
       technologies: "Inventor, Fusion, Matlab and Eiger",
       industry: "Design, Engineering and Production",
@@ -462,6 +478,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Sisteract",
       projectInfo:"portfolio/project18.html",
+      files:"portfolio/files/default.html",
       client: "Davinci college",
       technologies: "MagicQ, Capture",
       industry: "Lighting design and control",
@@ -484,6 +501,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "StoefoeBlade",
       projectInfo:"portfolio/project19.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Inventor, Fusion, AutoCad, Stoefoeblade and Qblade",
       industry: "Design, Engineering and Production",
@@ -517,6 +535,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Braccu",
       projectInfo:"portfolio/project20.html",
+      files:"portfolio/files/default.html",
       client: "Cleanmobility Amsterdam University of Applied Sciences ",
       technologies: "Beunen",
       industry: "Beunen",
