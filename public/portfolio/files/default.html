@@ -1,57 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Not Found</title>
     <style>
-        body {
-            background-color: #111;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
         .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 40px;
-            background-color: #333;
-            border-radius: 5px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #e74c3c;
-        }
-
-        p {
-            font-size: 18px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #333;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #fff;
         }
 
         .pirate-logo {
-            width: 400px;
-            margin-top: 20px;
+        width: 400px;
+        margin-top: 20px;
         }
 
-        a {
-            color: #3498db;
-            text-decoration: none;
+        body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #343a40
+        
+        }
+        .button-53 {
+        background-color: #20c997;
+        border-color: #20c997;
+        box-sizing: border-box;
+        outline: 0;
+        border-radius: 50rem;
+        color: #ffffff;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        justify-content: center;
+        line-height: 1.75em;
+        padding: 0.8rem 2.6rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 50%;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
         }
 
-        a:hover {
-            text-decoration: underline;
+        @media (min-width: 768px) {
+        .button-53 {
+            padding: 0.75rem 3rem;
+            font-size: 1.25rem;
+        }
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/The_Pirate_Bay_logo.svg/200px-The_Pirate_Bay_logo.svg.png" alt="The Pirate Bay Logo" class="pirate-logo">
-        <h1>404 - Ahoy, Matey!</h1>
-        <p>Yarrr, the page ye be searchin' for has set sail and be lost at sea.</p>
-        <p><a href="https://stefvdm.com/">Return to Port</a></p>
+
+    <!-- Button to open the "Page Not Found" content in a new window -->
+    <button class="button-53" onclick="openPageNotFound()">Download files</button>
+
+    <!-- Hidden "Page Not Found" content -->
+    <div id="pageNotFoundContent" style="display: none; background-color: #000000;">
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/The_Pirate_Bay_logo.svg/200px-The_Pirate_Bay_logo.svg.png" alt="The Pirate Bay Logo" class="pirate-logo">
+            <h1>404 - Ahoy, Matey!</h1>
+            <p>Yarrr, the page ye be searchin' for has set sail and be lost at sea.</p>
+            <p><a href="https://stefvdm.com/" style="color: #3498db; text-decoration: none;">Return to Port</a></p>
+        </div>
     </div>
+
+    <script>
+        function openPageNotFound() {
+            // Get the "Page Not Found" content div
+            var pageNotFoundDiv = document.getElementById('pageNotFoundContent');
+
+            // Create a new window
+            var newWindow = window.open('', '_blank');
+            
+            // Write the HTML content to the new window's document
+            newWindow.document.write('<html><head><title>404 - Not Found</title>');
+            newWindow.document.write('<style>' + document.querySelector('style').innerHTML + '</style>'); // Copy the internal styles
+            newWindow.document.write('</head><body>');
+            newWindow.document.write(pageNotFoundDiv.innerHTML);
+            newWindow.document.write('</body></html>');
+
+            newWindow.document.title = '404 - Not Found';
+            newWindow.document.close();
+        }
+    </script>
 </body>
 </html>

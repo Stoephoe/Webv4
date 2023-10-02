@@ -182,28 +182,21 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                         
                       </ul>
                   </div>
-                      <div className="row g-4">
-                        <div className="col-xl-15">
-                            <a
-                            
-                            href={projectDetails?.files}
-                            download
-                            
-                            className="btn btn-primary rounded-pill"
-                            
-                          >
-                            Download Files
-                          </a>
-                                    <div className="row no-gutters align-items-center">
-                                  <div
-                                    className={
-                                      "col-auto text-dark font-weight-600" +
-                                      (darkTheme ? " text-white" : "")
-                                    }
-                                  >
-                                  </div>
-                          </div>
-                        </div>
+                      <div className="col-xl-15">
+                      <iframe
+                        title="test"
+                        id="myFrame"
+                        src={projectDetails?.files}
+
+                        width="100%"
+                        height={75}
+                        scrolling="no"
+                        frameBorder="0"
+                        style={{
+                          width: "100%",
+                          overflow: "auto",
+                        }}
+                      ></iframe>
                     </div>                     
                 </div>
               </div>
