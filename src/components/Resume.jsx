@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/Resume.zip";
+import resumeFile from "../documents/resume.zip";
 
 const Resume = ({ classicHeader, darkTheme }) => {
   const educationDetails = [
