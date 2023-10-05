@@ -129,8 +129,22 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   Portfolio
                 </Link>
               </li>
+              
             </ul>
           </div>
+          <ul className="social-icons social-icons-muted social-icons-lg mt-lg-auto ms-auto ms-lg-0 d-flex">
+            <li className="social-icons-github">
+              <Tooltip text="GitHub" placement="top">
+                <a
+                  href="https://github.com/Stoephoe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </Tooltip>
+            </li>
+          </ul>
           <button
             onClick={(e) => {
               setIsNavModalClose(!isNavModalClose);
